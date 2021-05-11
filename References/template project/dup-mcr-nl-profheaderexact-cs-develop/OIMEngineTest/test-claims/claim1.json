@@ -1,0 +1,42 @@
+{
+  "id": "claim1234",
+  "insurance": [
+    {
+      "coverage": {
+        "id": "medicaid"
+      }
+    }
+  ],
+  "patient": {
+    "id": "member1234"
+  },
+  "item": [
+    {
+      "productOrService": {
+        "coding": [
+          {
+            "code": "0028U"
+          }
+        ]
+      }
+    },
+    {
+      "productOrService": {
+        "coding": [
+          {
+            "code": "0001U"
+          }
+        ]
+      }
+    }
+  ],
+  "priority": {
+    "id": "high"
+  },
+  "type": {
+    "id": "something"
+  },
+  "provider": {
+    "id": "somebody"
+  }
+}

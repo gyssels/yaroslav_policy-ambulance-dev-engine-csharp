@@ -1,0 +1,49 @@
+{
+  "id": "claim1234",
+  "insurance": [
+    {
+      "sequence": 1,
+      "focal": false,
+      "coverage": {
+        "id": "medicaid"
+      }
+    }
+  ],
+  "patient": {
+    "id": "member1234"
+  },
+  "item": [
+    {
+      "sequence": 10,
+      "productOrService": {
+        "coding": [
+          {
+            "code": "0028U"
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 11,
+      "productOrService": {
+        "coding": [
+          {
+            "code": "0001U"
+          }
+        ]
+      }
+    }
+  ],
+  "priority": {
+    "id": "high"
+  },
+  "type": {
+    "id": "something"
+  },
+  "provider": {
+    "id": "somebody"
+  },
+  "use": "claim",
+  "status": "good",
+  "created": "2020-06-30"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Simple Insight Engine (.NET)",
+    "authorId": "OIM",
+    "language": "dotnet3.1",
+    "daysOfHistory": 20,
+  "queries": []
+}
